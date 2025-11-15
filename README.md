@@ -178,16 +178,16 @@ User enters Appointment Number / Name / Phone → System fetches status → Disp
 
 ---
 
-## 📸 **Screenshots (Optional)**
+## 📸 **Screenshots**
+**About section:**
+<img width="1060" height="544" alt="image" src="https://github.com/user-attachments/assets/51d96906-ec03-40ed-9632-4b3798a6ad49" />
 
-*(Add screenshots of UI, admin dashboard, login, booking, etc.)*
+**Services**
+<img width="1054" height="673" alt="image" src="https://github.com/user-attachments/assets/5ff38b6a-712b-4901-a95a-41886fd7ad39" />
 
-```md
-![Home Page](screenshots/home.png)
-![Admin Dashboard](screenshots/dashboard.png)
-```
+**Specialization of doctor page**
+<img width="1069" height="1096" alt="image" src="https://github.com/user-attachments/assets/01f4cfed-3955-49d8-9c49-cf0e36b4930a" />
 
----
 
 ## 🧪 **Sample PHP Code (Database Connection)**
 
@@ -209,10 +209,10 @@ try {
 
 ## 🚀 **How to Run This Project Locally**
 
-### **Step 1 — Download or Clone**
+### **Step 1 — Download or Code**
 
 ```
-git clone https://github.com/your-username/Doctor-Appointment-Management-System.git
+[git clone https://github.com/your-username/Doctor-Appointment-Management-System.git](https://github.com/ManojGowdaG15/Doctor-Appointment-Management-System-PHP-)
 ```
 
 ### **Step 2 — Move to XAMPP htdocs**
