@@ -212,7 +212,7 @@ try {
 ### **Step 1 — Download or Code**
 
 ```
-[git clone https://github.com/your-username/Doctor-Appointment-Management-System.git](https://github.com/ManojGowdaG15/Doctor-Appointment-Management-System-PHP-)
+https://github.com/ManojGowdaG15/Doctor-Appointment-Management-System-PHP-
 ```
 
 ### **Step 2 — Move to XAMPP htdocs**
