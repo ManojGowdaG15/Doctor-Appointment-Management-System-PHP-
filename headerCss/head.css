@@ -1,0 +1,51 @@
+.head{
+    font-family:'Times New Roman', Times, serif ; 
+    font-size:larger;
+    size: 30px;
+    font-display:200%;
+ }
+
+/*navigation */
+ .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 2px;
+    color: rgb(23, 12, 233);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #09ffda;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #3f7ced;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+.nav-item{
+    font-size: 20px;
+}
+
+.navbar-navmx-auto{
+    font-size: 20px;
+
+}

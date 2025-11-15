@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="css/style(1).css" class="css">
+    <!-- FONT AWESOME LINK USING BOXICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            font-family: 'poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #fafafa;
+        }
+
+        .wrapper h1 {
+            font-size: 3em;
+
+            margin: 25px;
+        }
+
+        .content-box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1000px;
+            margin-top: 30px;
+        }
+
+        .card {
+            min-height: 220px;
+            width: 320px;
+            padding: 30px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #fff;
+            margin: 10px 4px;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .card i {
+            margin: 20px;
+            color: #581ed6;
+        }
+
+        .card h2 {
+            margin-bottom: 12px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .card p {
+            color: #6c757d;
+            text-align: center;
+        }
+
+        .card:hover i,
+        .card:hover p {
+            color: #fff;
+        }
+
+        .card:hover h2 {
+            font-weight: 600;
+        }
+
+        .card:nth-child(1):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg1.jpg');
+            background-size: cover;
+        }
+
+        .card:nth-child(2):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg2.jpg');
+            background-size: cover;
+        }
+
+        .card:nth-child(3):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg3.jpg');
+            background-size: cover;
+        }
+
+        .card:nth-child(4):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg4.jpg');
+            background-size: cover;
+        }
+
+        .card:nth-child(5):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg5.jpeg');
+            background-size: cover;
+        }
+
+        .card:nth-child(6):hover {
+            background: linear-gradient(45deg,
+                    rgba(88, 70, 159, 0.7) 0%,
+                    rgba(136, 113, 199, 0.7)100%),
+                url('includes/images/bg6.jpg');
+            background-size: cover;
+        }
+
+        @media(max-width:991px) {
+            .wrapper {
+                padding: 25px;
+            }
+
+            .wrapper h1 {
+                font-size: 2.5em;
+                font-weight: 600;
+            }
+
+            .content-box {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .card {
+                min-width: 300px;
+                margin: 10px auto;
+            }
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <hr style="width: 5px;color: black;">
+        <br>
+        <div class="wrapper">
+            <h2>Our Services</h2>
+            <div class="content-box">
+                <div class="card">
+                    <i class="bx bx-bar-chart-alt bx-md"></i>
+                    <h4 style="font-size: 25px;">No Waiting in Queues</h24>
+                        <p>patients do not have to wait in long queues in crowded rooms.</p>
+
+                </div>
+                <div class="card">
+                    <i class="bx bx-laptop bx-md"></i>
+                    <h4 style="font-size: 25px;">Personalised Care</h4>
+                    <p>people have choice and control over the way their care is planned and delivered</p>
+
+                </div>
+                <div class="card">
+                    <i class='bx bx-user bx-md'></i>
+
+                    <h4 style="font-size: 25px;">24/7 Services</h4>
+                    <p>A DAMS team Emergency doctors ,outsourced and handle patients</p>
+
+                </div>
+                <div class="card">
+                    <i class="bx bx-mail-send bx-md"></i>
+                    <h4 style="font-size: 25px;">General Medical Care</h4>
+                    <p> General medical care for patients of all ages</p>
+
+                </div>
+                <div class="card">
+                    <i class="bx bx-bar-chart-alt bx-md"></i>
+                    <h4 style="font-size: 25px;">Preventive Care and Health Promotion</h4>
+                    <p>Health checks, counseling on nutrition and exercise</p>
+
+                </div>
+                <div class="card">
+                    <i class="bx bx-paint bx-md"></i>
+                    <h4 style="font-size: 25px;">Creative Consultancy</h4>
+                    <p> provide ongoing monitoring, medication management, lifestyle counseling, and referrals </p>
+
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
